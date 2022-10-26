@@ -1,0 +1,52 @@
+p{
+            		color: red;
+
+            	}
+.uppercase{
+	text-transform: uppercase;
+
+}
+.front{
+	font-size: 20px;
+}
+.color{
+	background-color: green;
+}
+html{
+	background-color: #ffeeee;
+	margin: 10px;
+	padding:40px ;
+}
+.color1{
+	color: #938293;
+}
+.potcolor {
+	border-left: 5px solid #53b928;
+}
+.listcolor{
+	background-color: #e5d8c2;
+}
+main{
+display: inline-block;
+width: 70%;
+}
+ aside{
+    display: inline-block;
+	width: 22%;
+	margin: 180px 15px 25px 48px;
+	padding: auto;
+	float: right;
+
+}
+.submitcolor{
+	background-color: #e3e2d5;
+}
+.border1{
+  border: 3px solid black;
+}
+.border2{
+	border:4px  solid black;
+	
+	background-color: #e1ffbe;
+
+}

@@ -1,0 +1,313 @@
+body{
+	margin: 0px;
+}
+#body-header{
+	height: 65vh;
+	background-image: url(static/resume1.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+.horizental-list {
+	list-style:none ;
+	padding: 0px;
+	text-align: center;
+    
+}
+.horizental-list li{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+
+}
+.horizental-list li a{
+	color: white;
+	text-decoration: none;
+	transition: color 05.s,border-bottom, 0.5s;
+}
+.horizental-list li a:hover{
+	color: lightblue;
+	border-bottom: 2px solid, whitesmoke;
+}
+/* name color */
+.name-color{
+	margin: 160px 160px 250px 250px;
+	color: white;
+}
+/* image logo */
+.height{
+   display: inline-block;
+   height: 3vh;
+   padding: 10px;
+   margin-top: -230px;
+   margin-left: -200px;
+   border-radius: 35%;
+ 
+}
+.height1{
+	margin-left: -150px;
+}
+#About{
+	height: auto;
+	width: 100%;
+}
+.my-img{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+
+}
+.my-img img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	margin-top: -50%;
+}
+.text{
+	border: 50px solid white;
+	margin-top:-100px ;
+	padding: 55px;
+}
+.skillsimg{
+	height: 10vh;
+	width: 10vh;
+	margin-left: 30%;
+}
+.skillstext{
+	margin-left: 40%;
+	
+	margin-top: -6.5%;
+}
+#file-item1{
+	background-color: gray;
+}
+#file-item2{
+	 background-color: orange;
+}
+#file-item3{
+	background-color: red;
+}
+#file-item4{
+	background-color: lightgray;
+}
+#file-item5{
+	background-color: lightblue;
+}
+#file-item6{
+	background-color: lightcoral;
+}
+#file-item7{
+	background-color: lightsalmon;
+}
+.file-item{
+	width: 110px;
+	height: auto;
+	border: 2px solid lightgray;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+	margin-top: 45px;
+	padding: 5px 0px 0px 0px;
+
+}
+.file-continer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-self: center;
+	flex-direction: row;
+	background-color: lightblue;
+
+
+
+}
+.file-item1{
+	border-radius: 20px 0px 0px 20px;
+
+}
+/*.height{
+	height: 75vh;
+	width: 75vh;
+}*/
+.work-exp0{
+	margin-left: 35%;
+	color: brown;
+}
+.time-line{
+	position: relative;
+	width: 75%;
+	border: 2px solid black;
+	margin-left: 60px;
+	
+}
+.time-box{
+	position: relative;
+	margin: 10px;
+    width: 30%;
+	left: 5%;
+	min-height: 150px;
+	border: 2px solid black;
+}
+.time-box:nth-child(2n){
+	left: 53%;
+	background-color: whitesmoke;
+}
+ul{
+	list-style: none;
+}
+.time-box:nth-child(2n+1):after{
+	content: '';
+	border-radius: 50%;
+	background-color: rgb(177, 19, 19);
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	right: -48%;
+}
+.time-box:nth-child(2n):after{
+	content: '';
+	border-radius: 50%;
+	background-color: aqua;
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	left: -16%;
+}
+.workexp1::first-letter{
+	font-weight: bold;
+	font-size: 2rem;
+	text-transform: capitalize;
+	
+}
+.workexp1::before{
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 40px;
+	background-image: url(static/indiamart.jpg);
+	background-size: contain;
+}
+.workexp2{
+	background-color: rgb(201, 174, 133);
+}
+.workexp3::before{
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 40px;
+	background-image: url(static/ns\ palnter.jpg);
+	background-size: contain;
+}
+.workexp4::before{
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 40px;
+	background-image: url(static/download.png);
+	background-size: contain;
+}
+.workexp5::before{
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 40px;
+	background-image: url(static/sandhya.jpg);
+	background-size: contain;
+}
+.time-line-divider{
+	position: absolute;
+	height: 78%;
+	width: 0%;
+	border: 3.5px dashed burlywood;
+	top: 20%;
+	left: 50%;
+}
+.timeline-traveler{
+	position: sticky;
+	top: 25%;
+	
+}
+.education0{
+	margin-left: 35%;
+}
+.education1{
+	width: 75%;
+	position: relative;
+	margin-left: 10%;
+	border: 2px solid black;
+}
+.education2{
+	position: relative;
+	width: 35%;
+	min-height: 150px;
+	border: 2px solid black;
+	margin-left: 5px;
+	margin-top: 5%;
+}
+.education2:nth-child(2n){
+	left: 53%;
+	background-color: rgb(182, 187, 152);
+}
+.education2:nth-child(2n+1)::after{
+	content: '';
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	right: -35%;
+	background-color: blueviolet;
+	top: 30%;
+	
+	
+}
+.education2:nth-child(2n)::after{
+	content: '';
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	left: -20%;
+	
+    background-color: blue;
+    top: 55%;
+}
+.education3{
+	position: absolute;
+	border: 3px dashed greenyellow;
+	height: 75%;
+	top: 15%;
+	left: 47% ;
+	width: 0%;
+
+}
+.education4{
+	position: sticky;
+	top: 25%;
+
+}
+.eduimg::before{
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 40px;
+	background-image: url(static/srmu.jpg);
+	background-size: contain;
+
+}
+.eduimg2::before{
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 40px;
+	background-image: url(static/aps.jpj);
+	background-size: contain;
+
+}
+.eduimg3::before{
+	content: '';
+	display: inline-block;
+	width: 30%;
+	height: 20%;
+	background-image: url(static/aps.jpj);
+	background-size: contain;
+}
